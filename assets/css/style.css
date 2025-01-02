@@ -1,0 +1,67 @@
+:root {
+    --title-color: #000;
+    --text-color: #34201a;
+    --bg-color: #f1ede3;
+    --text-fonts: 'TT Hoves';
+    --title-fonts: 'roxborough';
+    --bg-nav-color: #dbd1ba;
+
+}
+
+@font-face {
+    font-family: 'roxborough';
+    src: url('/assets/fonts/roxborough-cf-regular_freefontdownload_org/roxborough-cf-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: var(--text-fonts);
+    src: url('/assets/fonts/tt_hoves_pro/TT\ Hoves\ Pro\ Trial\ Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.bg-color {
+    background-color: var(--bg-color);
+}
+
+h4{
+    font-family: var(--text-fonts);
+}
+
+p{
+    font-family: var(--text-fonts);
+}
+
+li{
+    font-family: var(--text-fonts);
+}
+
+.fs-1{
+    font-size: 8rem !important;
+    font-family: var(--title-fonts);
+}
+
+h3{
+    font-size: 2rem !important;
+    font-family: var(--title-fonts);
+}
+
+h2{
+    font-family: var(--title-fonts);
+    font-size: 4rem;
+}
+
+.offcanvas-header, .offcanvas-body{
+    background-color: var(--bg-nav-color);
+}
+
+.mt{
+    margin-top: 10rem;
+}
+
+.border-raduis{
+    border-radius: 275px;
+}
